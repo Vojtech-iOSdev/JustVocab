@@ -2503,7 +2503,7 @@
                            location = "group:Info.plist">
                         </FileRef>
                         <FileRef
-                           location = "group:MateeStarter.shared:base.bundle">
+                           location = "group:JustVocab.shared:base.bundle">
                         </FileRef>
                      </Group>
                      <FileRef
@@ -2541,7 +2541,7 @@
                            location = "group:Info.plist">
                         </FileRef>
                         <FileRef
-                           location = "group:MateeStarter.shared:base.bundle">
+                           location = "group:JustVocab.shared:base.bundle">
                         </FileRef>
                      </Group>
                      <FileRef
@@ -13427,6 +13427,6 @@
       </Group>
    </Group>
    <FileRef
-      location = "group:MateeStarter.xcodeproj">
+      location = "group:JustVocab.xcodeproj">
    </FileRef>
 </Workspace>

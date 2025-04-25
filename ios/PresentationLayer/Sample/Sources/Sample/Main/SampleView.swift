@@ -47,6 +47,7 @@ struct SampleView: View {
             Text(sampleText.value)
 
             Button("Click me!", action: onButtonTapped)
+                .background(Color.green)
         }
     }
 }

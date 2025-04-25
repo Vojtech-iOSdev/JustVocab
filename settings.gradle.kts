@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.buildFileName = "build.gradle.kts"
-rootProject.name = "MateeStarter"
+rootProject.name = "JustVocab"
 
 include(":android:app")
 include(":android:shared")

@@ -33,6 +33,7 @@ struct SampleSharedViewModelView: View {
                     Button("Click me!") {
                         viewModel.onIntent(intent: SampleSharedIntentOnButtonTapped())
                     }
+                    .background(Color.red)
                 }
             }
         }

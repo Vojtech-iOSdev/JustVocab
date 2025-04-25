@@ -53,7 +53,7 @@
 		454F6EC526CE8B4100C386B8 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454F6EC626CE8B4600C386B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454F6EC726CE8B4A00C386B8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4558D30720FCC8FF005BC325 /* MateeStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MateeStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4558D30720FCC8FF005BC325 /* JustVocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustVocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4558D30A20FCC8FF005BC325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456E73DD25F817FA007D9A6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4575E65525F6FA7600CCC003 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		4558D30820FCC8FF005BC325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4558D30720FCC8FF005BC325 /* MateeStarter.app */,
+				4558D30720FCC8FF005BC325 /* JustVocab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,9 +227,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4558D30620FCC8FF005BC325 /* MateeStarter */ = {
+		4558D30620FCC8FF005BC325 /* JustVocab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4558D31920FCC900005BC325 /* Build configuration list for PBXNativeTarget "MateeStarter" */;
+			buildConfigurationList = 4558D31920FCC900005BC325 /* Build configuration list for PBXNativeTarget "JustVocab" */;
 			buildPhases = (
 				4558D30320FCC8FF005BC325 /* Sources */,
 				4558D30420FCC8FF005BC325 /* Frameworks */,
@@ -243,7 +243,7 @@
 			);
 			dependencies = (
 			);
-			name = MateeStarter;
+			name = JustVocab;
 			packageProductDependencies = (
 				459C3706274B001B00536110 /* Atlantis */,
 				4508332928435E7800BC9460 /* SharedDomain */,
@@ -256,8 +256,8 @@
 				A37BB4E02C5D1129006C491D /* SampleComposeMultiplatform */,
 				A38D91692CC670DF00859170 /* SampleComposeNavigation */,
 			);
-			productName = MateeStarter;
-			productReference = 4558D30720FCC8FF005BC325 /* MateeStarter.app */;
+			productName = JustVocab;
+			productReference = 4558D30720FCC8FF005BC325 /* JustVocab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4558D30220FCC8FF005BC325 /* Build configuration list for PBXProject "MateeStarter" */;
+			buildConfigurationList = 4558D30220FCC8FF005BC325 /* Build configuration list for PBXProject "JustVocab" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -295,7 +295,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4558D30620FCC8FF005BC325 /* MateeStarter */,
+				4558D30620FCC8FF005BC325 /* JustVocab */,
 			);
 		};
 /* End PBXProject section */
@@ -471,7 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				APP_DISPLAY_NAME = "A-MateeStarter";
+				APP_DISPLAY_NAME = "A-JustVocab";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Alpha";
 				CODE_SIGN_ENTITLEMENTS = Application/Entitlements/Alpha.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -493,8 +493,8 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-DALPHA\"";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.mateestarter.alpha;
-				PRODUCT_NAME = MateeStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.justvocab.alpha;
+				PRODUCT_NAME = JustVocab;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -563,7 +563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				APP_DISPLAY_NAME = "A-MateeStarter";
+				APP_DISPLAY_NAME = "A-JustVocab";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Alpha";
 				CODE_SIGN_ENTITLEMENTS = Application/Entitlements/Alpha.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -586,8 +586,8 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-DALPHA\"";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.mateestarter.alpha;
-				PRODUCT_NAME = MateeStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.justvocab.alpha;
+				PRODUCT_NAME = JustVocab;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -719,7 +719,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				APP_DISPLAY_NAME = MateeStarter;
+				APP_DISPLAY_NAME = JustVocab;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Application/Entitlements/Prod.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -741,8 +741,8 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-DPRODUCTION\"";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.mateestarter;
-				PRODUCT_NAME = MateeStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.justvocab;
+				PRODUCT_NAME = JustVocab;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -754,7 +754,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				APP_DISPLAY_NAME = MateeStarter;
+				APP_DISPLAY_NAME = JustVocab;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Application/Entitlements/Prod.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -777,8 +777,8 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-DPRODUCTION\"";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.mateestarter;
-				PRODUCT_NAME = MateeStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.matee.justvocab;
+				PRODUCT_NAME = JustVocab;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -789,7 +789,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4558D30220FCC8FF005BC325 /* Build configuration list for PBXProject "MateeStarter" */ = {
+		4558D30220FCC8FF005BC325 /* Build configuration list for PBXProject "JustVocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4558D31720FCC900005BC325 /* Debug */,
@@ -800,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4558D31920FCC900005BC325 /* Build configuration list for PBXNativeTarget "MateeStarter" */ = {
+		4558D31920FCC900005BC325 /* Build configuration list for PBXNativeTarget "JustVocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4558D31A20FCC900005BC325 /* Debug */,
